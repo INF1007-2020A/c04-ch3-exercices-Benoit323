@@ -15,7 +15,7 @@ Traceback (most recent call last):
   File "test_exercice.py", line 44, in <listcomp>
     output = [exercice.average(*v) for v in values]
   File "/home/runner/work/c04-ch3-exercices-Benoit323/c04-ch3-exercices-Benoit323/exercice.py", line 16, in average
-    return (sum(a+b+c)/len(a))
+    return (sum(a+b+c)/len(a, b, c))
 TypeError: 'int' object is not iterable
 
 ======================================================================
@@ -94,6 +94,6 @@ First differing element 0:
 + [-0.08668468618238503, 0.17598251810595048, 6.283490739798685, 6.9973449482748] : Mauvais calcul de degres -> radians
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.002s
+Ran 7 tests in 0.001s
 
 FAILED (failures=4, errors=2)
